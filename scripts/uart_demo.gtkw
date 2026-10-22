@@ -1,0 +1,59 @@
+[*] GTKWave save file for the UART demo testbench
+[dumpfile] "sim/uart_demo_tb.vcd"
+[timestart] 0
+[treeopen] uart_demo_tb.
+[treeopen] uart_demo_tb.dut.
+[sst_width] 260
+[signals_width] 300
+[pattern_trace] 1
+[pattern_trace] 0
+@820
+-CLOCK/RESET
+@28
+uart_demo_tb.clk
+uart_demo_tb.rst_n
+@200
+@820
+-APB4 REGISTER BUS
+@28
+uart_demo_tb.dut.PSEL
+uart_demo_tb.dut.PENABLE
+uart_demo_tb.dut.PWRITE
+uart_demo_tb.dut.PREADY
+uart_demo_tb.dut.PSLVERR
+@22
+uart_demo_tb.dut.PADDR[7:0]
+uart_demo_tb.dut.PWDATA[31:0]
+uart_demo_tb.dut.PRDATA[31:0]
+@200
+@820
+-TRANSMITTER
+@22
+uart_demo_tb.dut.tx_data[7:0]
+@28
+uart_demo_tb.dut.tx_valid
+uart_demo_tb.dut.tx_ready
+uart_demo_tb.dut.tx_busy
+uart_demo_tb.dut.u_tx.state[2:0]
+uart_demo_tb.dut.txd
+@200
+@820
+-RECEIVER
+@28
+uart_demo_tb.dut.rxd
+uart_demo_tb.dut.u_rx.state[2:0]
+@22
+uart_demo_tb.dut.rx_data[7:0]
+@28
+uart_demo_tb.dut.rx_valid
+uart_demo_tb.dut.rx_busy
+@200
+@820
+-ERRORS / BAUD
+@22
+uart_demo_tb.dut.err_reg[3:0]
+@28
+uart_demo_tb.dut.u_baud.os_tick
+uart_demo_tb.dut.irq
+[pattern_trace] 1
+[pattern_trace] 0

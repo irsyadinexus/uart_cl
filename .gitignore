@@ -1,0 +1,22 @@
+# Simulation & build artifacts
+build/
+obj_dir/
+sim/obj_vl/
+sim/obj_cov/
+sim/cov_annotated/
+sim/*.vvp
+sim/*.vcd
+sim/*.out
+sim/*.log
+coverage.dat
+*.vcd
+*.fst
+*.fst.hier
+
+# Windows / WSL metadata
+*Zone.Identifier*
+*:Zone.Identifier
+
+# IDE & local agent state
+.claude/
+.vscode/
